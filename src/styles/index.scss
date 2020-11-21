@@ -32068,6 +32068,10 @@ video {
   animation: bounce 1s infinite;
 }
 
+.animate-spin-slow {
+  animation: spin 5s linear infinite;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -63542,6 +63546,10 @@ video {
 
   .sm\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .sm\:animate-spin-slow {
+    animation: spin 5s linear infinite;
   }
 }
 
@@ -95020,6 +95028,10 @@ video {
   .md\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .md\:animate-spin-slow {
+    animation: spin 5s linear infinite;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -126496,6 +126508,10 @@ video {
 
   .lg\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .lg\:animate-spin-slow {
+    animation: spin 5s linear infinite;
   }
 }
 
@@ -157974,6 +157990,10 @@ video {
   .xl\:animate-bounce {
     animation: bounce 1s infinite;
   }
+
+  .xl\:animate-spin-slow {
+    animation: spin 5s linear infinite;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -189450,5 +189470,9 @@ video {
 
   .\32xl\:animate-bounce {
     animation: bounce 1s infinite;
+  }
+
+  .\32xl\:animate-spin-slow {
+    animation: spin 5s linear infinite;
   }
 }
